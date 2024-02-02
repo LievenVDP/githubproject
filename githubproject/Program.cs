@@ -12,10 +12,14 @@ namespace githubproject
         {
             Console.WriteLine("Hello World");
 
+            Console.WriteLine("Lise V");
+
+
             Console.WriteLine("Quinten");
 
 
             Console.WriteLine("Goodbye world");
+
 
         }
     }
