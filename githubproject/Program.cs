@@ -10,8 +10,27 @@ namespace githubproject
     {
         static void Main(string[] args)
         {
+
+            Console.WriteLine("bishmillah");
+
             Console.WriteLine("Hello World");
+
             Console.WriteLine("kaasje24");
+
+
+
+            Console.WriteLine("Hallo");
+
+            Console.WriteLine("Lise V");
+
+
+
+            Console.WriteLine("Quinten");
+
+
+            Console.WriteLine("Goodbye world");
+
+
         }
     }
 }
