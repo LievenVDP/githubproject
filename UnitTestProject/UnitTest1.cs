@@ -19,5 +19,16 @@ namespace UnitTestProject
 
             Assert.AreEqual(Math.Sqrt(getal), vierkantswortel);
         }
+
+        [TestMethod]
+        public void TestLowercase()
+        {
+            Logica logica = new Logica();
+            string woord = "AAAAAAAAAA";
+
+            string LowerWoord = logica.Lowercase(woord);
+
+            Assert.AreEqual(logica.Lowercase(woord), LowerWoord);
+        }
     }
 }
