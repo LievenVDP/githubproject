@@ -37,5 +37,14 @@ namespace UnitTestVB
         {
             txtGetal1.Text = txtGetal2.Text = txtResultaatGetal.Text = txtStringInput.Text = txtStringResultaat.Text = String.Empty;
         }
+
+        private void btnGedeeld_Click(object sender, EventArgs e)
+        {
+            int getal1 = Convert.ToInt32(txtGetal1.Text);
+            int getal2 = Convert.ToInt32(txtGetal2.Text);
+
+            txtResultaatGetal.Text = Convert.ToString(_logica.GedeeldDoor(getal1, getal2));
+        }
+
     }
 }

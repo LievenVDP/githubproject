@@ -19,5 +19,19 @@ namespace UnitTestProject
 
             Assert.AreEqual(Math.Sqrt(getal), vierkantswortel);
         }
+
+        [TestMethod]
+        public void TestGedeeldDoor()
+        {
+            Logica Logica = new Logica();
+
+            int getal1 = 5;
+            int getal2 = 10;
+
+            double quotient = Logica.GedeeldDoor(getal1, getal2);
+
+            Assert.AreEqual(quotient, (getal1 / getal2));
+
+        }
     }
 }
