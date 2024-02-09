@@ -12,6 +12,7 @@ namespace UnitTestVB.Lgoic
         {
 
             return Math.Sqrt(getal);
+            //voila;
         
         }
     }
