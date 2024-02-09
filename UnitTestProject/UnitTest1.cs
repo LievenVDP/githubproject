@@ -19,5 +19,15 @@ namespace UnitTestProject
 
             Assert.AreEqual(Math.Sqrt(getal), vierkantswortel);
         }
+
+
+        public void TestGemiddelde()
+        {
+            Logica logica = new Logica();
+            double getal1 = 12;
+           double getal2 = 12;
+            var gemmidelde = logica.Berekengemiddelde(getal1, getal2);
+
+        }
     }
 }

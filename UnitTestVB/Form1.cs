@@ -37,5 +37,10 @@ namespace UnitTestVB
         {
             txtGetal1.Text = txtGetal2.Text = txtResultaatGetal.Text = txtStringInput.Text = txtStringResultaat.Text = String.Empty;
         }
+
+        private void btnGemiddelde_Click(object sender, EventArgs e)
+        {
+            _logica.Berekengemiddelde(Convert.ToDouble(txtGetal1.Text), Convert.ToDouble(txtGetal2.Text));
+        }
     }
 }

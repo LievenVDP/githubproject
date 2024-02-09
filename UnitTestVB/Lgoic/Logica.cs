@@ -14,5 +14,11 @@ namespace UnitTestVB.Lgoic
             return Math.Sqrt(getal);
         
         }
+
+        public double Berekengemiddelde(double getal1, double getal2)
+        {
+            return (getal1 + getal2) / 2;
+
+        }
     }
 }
