@@ -23,7 +23,7 @@ namespace UnitTestVB
         private void btnSquare_Click(object sender, EventArgs e)
         {
             int getal = 0;
-            if(txtGetal1.Text != null) 
+            if (txtGetal1.Text != null)
             {
                 getal = Convert.ToInt32(txtGetal1.Text);
             }
@@ -36,6 +36,18 @@ namespace UnitTestVB
         private void btnClear_Click(object sender, EventArgs e)
         {
             txtGetal1.Text = txtGetal2.Text = txtResultaatGetal.Text = txtStringInput.Text = txtStringResultaat.Text = String.Empty;
+        }
+
+        private void btnLower_Click(object sender, EventArgs e)
+        {
+            Logica logica = new Logica();
+            string woord = txtStringInput.Text;
+
+            string LowerWoord = logica.Lowercase(woord);
+
+            txtStringResultaat.Text = LowerWoord.ToString();
+
+
         }
     }
 }
