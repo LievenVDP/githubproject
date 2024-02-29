@@ -56,152 +56,171 @@
             // 
             // txtGetal1
             // 
-            this.txtGetal1.Location = new System.Drawing.Point(136, 59);
+            this.txtGetal1.Location = new System.Drawing.Point(181, 73);
+            this.txtGetal1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtGetal1.Name = "txtGetal1";
-            this.txtGetal1.Size = new System.Drawing.Size(100, 20);
+            this.txtGetal1.Size = new System.Drawing.Size(132, 22);
             this.txtGetal1.TabIndex = 0;
             // 
             // txtGetal2
             // 
-            this.txtGetal2.Location = new System.Drawing.Point(351, 59);
+            this.txtGetal2.Location = new System.Drawing.Point(468, 73);
+            this.txtGetal2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtGetal2.Name = "txtGetal2";
-            this.txtGetal2.Size = new System.Drawing.Size(100, 20);
+            this.txtGetal2.Size = new System.Drawing.Size(132, 22);
             this.txtGetal2.TabIndex = 1;
             // 
             // txtResultaatGetal
             // 
-            this.txtResultaatGetal.Location = new System.Drawing.Point(615, 59);
+            this.txtResultaatGetal.Location = new System.Drawing.Point(820, 73);
+            this.txtResultaatGetal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtResultaatGetal.Name = "txtResultaatGetal";
-            this.txtResultaatGetal.Size = new System.Drawing.Size(100, 20);
+            this.txtResultaatGetal.Size = new System.Drawing.Size(132, 22);
             this.txtResultaatGetal.TabIndex = 2;
             // 
             // btnPlus
             // 
-            this.btnPlus.Location = new System.Drawing.Point(54, 114);
+            this.btnPlus.Location = new System.Drawing.Point(72, 140);
+            this.btnPlus.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnPlus.Name = "btnPlus";
-            this.btnPlus.Size = new System.Drawing.Size(75, 23);
+            this.btnPlus.Size = new System.Drawing.Size(100, 28);
             this.btnPlus.TabIndex = 3;
             this.btnPlus.Text = "Plus";
             this.btnPlus.UseVisualStyleBackColor = true;
             // 
             // btnMin
             // 
-            this.btnMin.Location = new System.Drawing.Point(161, 114);
+            this.btnMin.Location = new System.Drawing.Point(215, 140);
+            this.btnMin.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnMin.Name = "btnMin";
-            this.btnMin.Size = new System.Drawing.Size(75, 23);
+            this.btnMin.Size = new System.Drawing.Size(100, 28);
             this.btnMin.TabIndex = 4;
             this.btnMin.Text = "Min";
             this.btnMin.UseVisualStyleBackColor = true;
             // 
             // btnMaal
             // 
-            this.btnMaal.Location = new System.Drawing.Point(278, 114);
+            this.btnMaal.Location = new System.Drawing.Point(371, 140);
+            this.btnMaal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnMaal.Name = "btnMaal";
-            this.btnMaal.Size = new System.Drawing.Size(75, 23);
+            this.btnMaal.Size = new System.Drawing.Size(100, 28);
             this.btnMaal.TabIndex = 5;
             this.btnMaal.Text = "Maal";
             this.btnMaal.UseVisualStyleBackColor = true;
             // 
             // btnGedeeld
             // 
-            this.btnGedeeld.Location = new System.Drawing.Point(398, 114);
+            this.btnGedeeld.Location = new System.Drawing.Point(531, 140);
+            this.btnGedeeld.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnGedeeld.Name = "btnGedeeld";
-            this.btnGedeeld.Size = new System.Drawing.Size(121, 23);
+            this.btnGedeeld.Size = new System.Drawing.Size(161, 28);
             this.btnGedeeld.TabIndex = 6;
             this.btnGedeeld.Text = "Gedeeld door";
             this.btnGedeeld.UseVisualStyleBackColor = true;
             // 
             // btnUpper
             // 
-            this.btnUpper.Location = new System.Drawing.Point(54, 313);
+            this.btnUpper.Location = new System.Drawing.Point(72, 385);
+            this.btnUpper.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnUpper.Name = "btnUpper";
-            this.btnUpper.Size = new System.Drawing.Size(75, 23);
+            this.btnUpper.Size = new System.Drawing.Size(100, 28);
             this.btnUpper.TabIndex = 7;
             this.btnUpper.Text = "Hoofdletters";
             this.btnUpper.UseVisualStyleBackColor = true;
             // 
             // btnLower
             // 
-            this.btnLower.Location = new System.Drawing.Point(161, 313);
+            this.btnLower.Location = new System.Drawing.Point(215, 385);
+            this.btnLower.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnLower.Name = "btnLower";
-            this.btnLower.Size = new System.Drawing.Size(75, 23);
+            this.btnLower.Size = new System.Drawing.Size(100, 28);
             this.btnLower.TabIndex = 8;
             this.btnLower.Text = "Kleine letters";
             this.btnLower.UseVisualStyleBackColor = true;
+            this.btnLower.Click += new System.EventHandler(this.btnLower_Click);
             // 
             // btnReverse
             // 
-            this.btnReverse.Location = new System.Drawing.Point(278, 313);
+            this.btnReverse.Location = new System.Drawing.Point(371, 385);
+            this.btnReverse.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnReverse.Name = "btnReverse";
-            this.btnReverse.Size = new System.Drawing.Size(75, 23);
+            this.btnReverse.Size = new System.Drawing.Size(100, 28);
             this.btnReverse.TabIndex = 9;
             this.btnReverse.Text = "Omdraaien";
             this.btnReverse.UseVisualStyleBackColor = true;
             // 
             // btnLast
             // 
-            this.btnLast.Location = new System.Drawing.Point(398, 313);
+            this.btnLast.Location = new System.Drawing.Point(531, 385);
+            this.btnLast.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnLast.Name = "btnLast";
-            this.btnLast.Size = new System.Drawing.Size(156, 23);
+            this.btnLast.Size = new System.Drawing.Size(208, 28);
             this.btnLast.TabIndex = 10;
             this.btnLast.Text = "Laatste letter";
             this.btnLast.UseVisualStyleBackColor = true;
             // 
             // button9
             // 
-            this.button9.Location = new System.Drawing.Point(54, 375);
+            this.button9.Location = new System.Drawing.Point(72, 462);
+            this.button9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(101, 23);
+            this.button9.Size = new System.Drawing.Size(135, 28);
             this.button9.TabIndex = 11;
             this.button9.Text = "2e tot 4e letter";
             this.button9.UseVisualStyleBackColor = true;
             // 
             // btnEersteWooord
             // 
-            this.btnEersteWooord.Location = new System.Drawing.Point(170, 375);
+            this.btnEersteWooord.Location = new System.Drawing.Point(227, 462);
+            this.btnEersteWooord.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnEersteWooord.Name = "btnEersteWooord";
-            this.btnEersteWooord.Size = new System.Drawing.Size(102, 23);
+            this.btnEersteWooord.Size = new System.Drawing.Size(136, 28);
             this.btnEersteWooord.TabIndex = 12;
             this.btnEersteWooord.Text = "Eerste Woord";
             this.btnEersteWooord.UseVisualStyleBackColor = true;
             // 
             // btnFirst
             // 
-            this.btnFirst.Location = new System.Drawing.Point(398, 375);
+            this.btnFirst.Location = new System.Drawing.Point(531, 462);
+            this.btnFirst.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnFirst.Name = "btnFirst";
-            this.btnFirst.Size = new System.Drawing.Size(156, 23);
+            this.btnFirst.Size = new System.Drawing.Size(208, 28);
             this.btnFirst.TabIndex = 14;
             this.btnFirst.Text = "Eerste Letter";
             this.btnFirst.UseVisualStyleBackColor = true;
             // 
             // txtStringInput
             // 
-            this.txtStringInput.Location = new System.Drawing.Point(54, 243);
+            this.txtStringInput.Location = new System.Drawing.Point(72, 299);
+            this.txtStringInput.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtStringInput.Name = "txtStringInput";
-            this.txtStringInput.Size = new System.Drawing.Size(299, 20);
+            this.txtStringInput.Size = new System.Drawing.Size(397, 22);
             this.txtStringInput.TabIndex = 15;
             // 
             // txtStringResultaat
             // 
-            this.txtStringResultaat.Location = new System.Drawing.Point(504, 243);
+            this.txtStringResultaat.Location = new System.Drawing.Point(672, 299);
+            this.txtStringResultaat.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtStringResultaat.Name = "txtStringResultaat";
-            this.txtStringResultaat.Size = new System.Drawing.Size(211, 20);
+            this.txtStringResultaat.Size = new System.Drawing.Size(280, 22);
             this.txtStringResultaat.TabIndex = 16;
             // 
             // btnGemiddelde
             // 
-            this.btnGemiddelde.Location = new System.Drawing.Point(584, 114);
+            this.btnGemiddelde.Location = new System.Drawing.Point(779, 140);
+            this.btnGemiddelde.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnGemiddelde.Name = "btnGemiddelde";
-            this.btnGemiddelde.Size = new System.Drawing.Size(75, 23);
+            this.btnGemiddelde.Size = new System.Drawing.Size(100, 28);
             this.btnGemiddelde.TabIndex = 17;
             this.btnGemiddelde.Text = "Gemiddelde";
             this.btnGemiddelde.UseVisualStyleBackColor = true;
             // 
             // btnSquare
             // 
-            this.btnSquare.Location = new System.Drawing.Point(54, 174);
+            this.btnSquare.Location = new System.Drawing.Point(72, 214);
+            this.btnSquare.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSquare.Name = "btnSquare";
-            this.btnSquare.Size = new System.Drawing.Size(218, 23);
+            this.btnSquare.Size = new System.Drawing.Size(291, 28);
             this.btnSquare.TabIndex = 18;
             this.btnSquare.Text = "Vierkantswortel van het eerste getal";
             this.btnSquare.UseVisualStyleBackColor = true;
@@ -209,9 +228,10 @@
             // 
             // btnClear
             // 
-            this.btnClear.Location = new System.Drawing.Point(615, 411);
+            this.btnClear.Location = new System.Drawing.Point(820, 506);
+            this.btnClear.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(99, 23);
+            this.btnClear.Size = new System.Drawing.Size(132, 28);
             this.btnClear.TabIndex = 19;
             this.btnClear.Text = "Alles Leegmaken";
             this.btnClear.UseVisualStyleBackColor = true;
@@ -220,53 +240,58 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(69, 59);
+            this.label1.Location = new System.Drawing.Point(92, 73);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(39, 13);
+            this.label1.Size = new System.Drawing.Size(47, 16);
             this.label1.TabIndex = 20;
             this.label1.Text = "getal 1";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(298, 62);
+            this.label2.Location = new System.Drawing.Point(397, 76);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(39, 13);
+            this.label2.Size = new System.Drawing.Size(47, 16);
             this.label2.TabIndex = 21;
             this.label2.Text = "getal 2";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(552, 59);
+            this.label3.Location = new System.Drawing.Point(736, 73);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(52, 13);
+            this.label3.Size = new System.Drawing.Size(64, 16);
             this.label3.TabIndex = 22;
             this.label3.Text = "Resultaat";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(51, 227);
+            this.label4.Location = new System.Drawing.Point(68, 279);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(61, 13);
+            this.label4.Size = new System.Drawing.Size(72, 16);
             this.label4.TabIndex = 23;
             this.label4.Text = "String Input";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(416, 243);
+            this.label5.Location = new System.Drawing.Point(555, 299);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(82, 13);
+            this.label5.Size = new System.Drawing.Size(101, 16);
             this.label5.TabIndex = 24;
             this.label5.Text = "String Resultaat";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -291,6 +316,7 @@
             this.Controls.Add(this.txtResultaatGetal);
             this.Controls.Add(this.txtGetal2);
             this.Controls.Add(this.txtGetal1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
