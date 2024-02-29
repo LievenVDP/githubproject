@@ -30,5 +30,16 @@ namespace UnitTestProject
 
             Assert.AreEqual(logica.Lowercase(woord), LowerWoord);
         }
+
+        [TestMethod]
+        public void TestLowercase2()
+        {
+            Logica logica = new Logica();
+            string woord = "AAAAAAAAAA";
+
+            string LowerWoord = logica.Lowercase(woord);
+
+            Assert.AreEqual(logica.Lowercase(woord), LowerWoord);
+        }
     }
 }
